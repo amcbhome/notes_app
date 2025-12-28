@@ -5,23 +5,12 @@
 python3 -m venv .venv
 source .venv/bin/activate
 
-## Import
-import pandas as pd
-
-## CSV
-
-df = pd.read_csv("data.csv")
-
-squares = {x: x**2 for x in range(10)}
-
-# Linear Regression
-
+## Linear regression
+```bash
 The simple linear regression model is:
-
 $$
 y = a + bx
 $$
-
 Where:
 
 - $y$ = dependent variable (e.g. cost)
@@ -30,6 +19,3 @@ Where:
 - $b$ = variable cost per unit (slope)
 
 This model is widely used in management accounting for cost estimation.
-
-
-
