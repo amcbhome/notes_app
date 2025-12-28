@@ -12,3 +12,6 @@ import pandas as pd
 
 df = pd.read_csv("data.csv")
 
+squares = {x: x**2 for x in range(10)}
+
+
