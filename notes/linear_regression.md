@@ -1,5 +1,3 @@
-The regression equation is given by $y = a + bx$.
-
 # Simple Linear Regression
 
 Simple linear regression models the relationship between two variables using a straight line.
